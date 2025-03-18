@@ -7,7 +7,14 @@
 
     <color name="normal">#FF000000</color>
 
+    <color name="reverse_normal">#FFFFFFFF</color>
+
     <color name="alt">#6B7280</color>
 
+    <color name="alt_container">#E4E4E9</color>
+
     <color name="container">#FFFFFF</color>
+
+    <color name="primaryLight">#80C0FF</color>
+
 </resources>

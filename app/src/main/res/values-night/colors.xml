@@ -6,7 +6,11 @@
 
     <color name="normal">#FFFFFFFF</color>
 
+    <color name="reverse_normal">#FFFFFFFF</color>
+
     <color name="alt">#BCC1C8</color>
+
+    <color name="alt_container">#7E8085</color>
 
     <color name="container">#636363</color>
 </resources>
