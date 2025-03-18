@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">StockMate</string>
+
+    <string-array name="dropdown_options">
+        <item>Comma-Separated Values (csv)</item>
+        <item>JavaScript Object Notation (json)</item>
+        <item>Database (db)</item>
+    </string-array>
+
 </resources>
