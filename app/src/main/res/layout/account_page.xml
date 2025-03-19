@@ -515,7 +515,7 @@
                         android:id="@+id/linkButton"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:background="@drawable/button_link"
+                        android:background="@drawable/fx_button_link"
                         android:padding="0dp"
                         android:text="Link"
                         android:textColor="@color/normal"

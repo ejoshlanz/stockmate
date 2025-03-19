@@ -89,7 +89,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_background"
+                android:background="@drawable/fx_rounded_background"
                 android:orientation="vertical"
                 android:padding="15dp">
 
@@ -166,7 +166,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_background"
+                android:background="@drawable/fx_rounded_background"
                 android:orientation="vertical"
                 android:layout_marginTop="15dp"
                 android:padding="15dp">
@@ -183,7 +183,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:background="@drawable/rounded_background2">
+                    android:background="@drawable/fx_rounded_background2">
 
                 </LinearLayout>
             </LinearLayout>
@@ -204,7 +204,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_background"
+                    android:background="@drawable/fx_rounded_background"
                     android:padding="12dp"
                     android:orientation="vertical"
                     android:gravity="center_vertical">
@@ -246,7 +246,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_background"
+                    android:background="@drawable/fx_rounded_background"
                     android:padding="12dp"
                     android:layout_marginVertical="15dp"
                     android:orientation="vertical"
@@ -286,7 +286,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_background"
+                    android:background="@drawable/fx_rounded_background"
                     android:padding="12dp"
                     android:orientation="vertical"
                     android:gravity="center_vertical">
