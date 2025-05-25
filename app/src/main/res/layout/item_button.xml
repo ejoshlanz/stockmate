@@ -1,0 +1,9 @@
+<com.google.android.material.button.MaterialButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+    android:id="@+id/categoryButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Category"
+    android:textColor="@color/normal"
+    android:layout_marginEnd="8dp"/>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fx_rounded_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginBottom="20px">
+
+    <!-- Left: Icon inside a circular CardView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:radius="25dp"
+        app:cardBackgroundColor="#DBEAFE"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="2dp">
+
+        <ImageView
+            android:id="@+id/itemIcon"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:scaleType="centerInside"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Middle: Vertical LinearLayout with Two TextViews -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingHorizontal="12dp">
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/normal"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/alt"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Right: Single TextView -->
+    <TextView
+        android:id="@+id/timeInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/alt"
+        android:textSize="14sp" />
+</LinearLayout>
